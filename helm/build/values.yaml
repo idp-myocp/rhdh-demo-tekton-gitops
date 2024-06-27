@@ -1,0 +1,16 @@
+app:
+  name: rhdh-demo-tekton
+  namespace: rhdh-demo-tekton-dev
+  cluster: .apps.home.myocp.net
+
+git:
+  branch: main
+  repo: https://github.com/idp-myocp/rhdh-demo-tekton
+  org: idp-myocp
+  name: rhdh-demo-tekton
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: froberge
+  name: rhdh-demo-tekton
